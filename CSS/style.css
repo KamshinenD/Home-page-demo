@@ -306,6 +306,9 @@ ul{
     .md-cols-2{
      grid-template-columns: 1fr 1fr;   
     }
+    #site-main .ready-area .flex{
+        flex-direction: row;
+    }
 }
 
 /* for large screen lg (1024px) */
@@ -550,9 +553,19 @@ ul{
 
 #site-main .ready-area .flex{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items:  center;
 
+}
+
+@media (max-width:768px) {
+    #site-main .ready-area .flex .w-50{
+        width: 100%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
 }
 /* Ready area END */
 #footer{
@@ -587,6 +600,11 @@ border-radius: 50px;
 #footer .grid .btn-go:hover{
     background-color: var(--text-dark2);
     color: var(--text-white);
+}
+
+.md-px-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 /* FOOTER  */
 /* Footer end */
