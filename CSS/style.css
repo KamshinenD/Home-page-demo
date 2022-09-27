@@ -432,7 +432,7 @@ ul{
 }
 /* /Navigation */
 
-/* Banner Area  */
+/* Hero Area  */
 #site-main .banner-area{
     position: relative;
     background: var(--bg-cover)no-repeat;
@@ -446,9 +446,9 @@ ul{
     height: 95vh;
     padding-top: 16rem;
 }
-/* Banner Area  end */
+/* Hero Area  end */
 
-/* Agency area */
+/* Our Activities area */
 #site-main .agency-area{
     padding: 5em 0;
 }
